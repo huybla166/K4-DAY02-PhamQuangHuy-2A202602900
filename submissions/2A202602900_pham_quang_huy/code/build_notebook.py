@@ -9,7 +9,7 @@ import json
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
-REPO_URL = "https://github.com/huybla166/K4-Track4-Day2-Deeplearning-Advance.git"
+REPO_URL = "https://github.com/huybla166/K4-DAY02-PhamQuangHuy-2A202602900.git"
 
 
 def md(s):
@@ -48,7 +48,7 @@ một hàm `train.run(Config)` (`code/train.py`); bảng thí nghiệm và khác
     code(f"""
 import os, sys, subprocess, platform
 REPO_URL = "{REPO_URL}"
-REPO_DIR = "K4-Track4-Day2-Deeplearning-Advance"
+REPO_DIR = "K4-DAY02-PhamQuangHuy-2A202602900"
 if not os.path.exists("eval.py"):
     if not os.path.exists(REPO_DIR):
         subprocess.run(["git", "clone", "-q", REPO_URL, REPO_DIR], check=True)

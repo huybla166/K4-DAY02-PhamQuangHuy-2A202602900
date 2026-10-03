@@ -9,7 +9,7 @@
 | Biểu đồ training, mỗi `exp_id` một ảnh | [`curves/`](curves) |
 | File dự đoán test (chung kết + mốc, mọi seed), val và bản chưa temperature scaling | [`predictions/`](predictions) |
 | Toàn bộ code (bộ khung `starter/` đã hoàn thiện + script thí nghiệm) | [`code/`](code) |
-| Notebook chạy lại toàn bộ | [`code/lab_day2.ipynb`](code/lab_day2.ipynb) — mở trên Colab: <https://colab.research.google.com/github/huybla166/K4-Track4-Day2-Deeplearning-Advance/blob/main/submissions/2A202602900_pham_quang_huy/code/lab_day2.ipynb> (link hoạt động sau khi thư mục này được push lên nhánh `main` của fork) |
+| Notebook chạy lại toàn bộ | [`code/lab_day2.ipynb`](code/lab_day2.ipynb) — mở trên Colab: <https://colab.research.google.com/github/huybla166/K4-DAY02-PhamQuangHuy-2A202602900/blob/main/submissions/2A202602900_pham_quang_huy/code/lab_day2.ipynb> (link hoạt động sau khi thư mục này được push lên nhánh `main` của fork) |
 | Log từng lần chạy (config, history theo epoch, summary, LR theo bước) | [`logs/<exp_id>/seed<k>/`](logs) ; suy luận: `logs/inference/`, chung kết: `logs/final/`, phân tích: `logs/analysis/`, thưởng: `logs/bonus/` |
 | Ảnh EDA, sanity check, phân tích | [`figures/`](figures) |
 
