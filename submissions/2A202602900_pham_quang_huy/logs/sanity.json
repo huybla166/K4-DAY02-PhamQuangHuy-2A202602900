@@ -1,0 +1,25 @@
+{
+  "expected_initial_loss": 2.1972245773362196,
+  "resnet50": {
+    "weight_tag": "resnet50.a1_in1k",
+    "initial_loss": 2.1799774169921875,
+    "initial_mean_max_prob": 0.12372351437807083,
+    "overfit_first_loss": 2.185791015625,
+    "overfit_final_loss": 0.0013921260833740234,
+    "overfit_train_acc": 1.0,
+    "eval_mode_batch_dependence": 0.0,
+    "train_mode_batch_dependence": 2.2695374488830566
+  },
+  "convnext_tiny": {
+    "weight_tag": "convnext_tiny.in12k_ft_in1k",
+    "initial_loss": 2.2731688022613525,
+    "initial_mean_max_prob": 0.29473745822906494,
+    "overfit_first_loss": 2.65692138671875,
+    "overfit_final_loss": 6.073713302612305e-05,
+    "overfit_train_acc": 1.0,
+    "eval_mode_batch_dependence": 0.0,
+    "train_mode_batch_dependence": 0.0
+  },
+  "cutmix_lam_example": 0.7033641581632653,
+  "mixup_lam_example": 0.4241693540850218
+}

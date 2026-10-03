@@ -1,0 +1,34 @@
+===== F01_f1 seed0 2026-10-03 23:50:30 =====
+{"exp_id": "F01_f1", "seed": 0, "fold": 1, "desc": "final_ema_mixup_d4", "backbone": "convnext_tiny", "init": "finetune", "drop_rate": 0.0, "drop_path_rate": 0.0, "img_size": 224, "eval_crop_pct": 0.875, "aug": "geo", "sampler": null, "mix": "mixup", "mix_alpha": 0.2, "mix_prob": 1.0, "loss": "ce", "label_smoothing": 0.0, "focal_gamma": 2.0, "class_weight_beta": null, "epochs": 12, "batch_size": 64, "accum_steps": 1, "optimizer": "adamw", "momentum": 0.9, "lr_backbone": 0.0001, "lr_head": 0.001, "weight_decay": 0.05, "warmup_epochs": 1.0, "grad_clip": null, "ema_decay": 0.999, "amp": true, "channels_last": false, "num_workers": 4, "images_dir": "data/images", "labels_dir": "data/labels", "out_dir": "runs", "pred_dir": "D:\\AI in Action\\Labs\\K4-Track4-Day2-Deeplearning-Advance\\submissions\\MSSV_pham_quang_huy\\predictions", "curves_dir": "D:\\AI in Action\\Labs\\K4-Track4-Day2-Deeplearning-Advance\\submissions\\MSSV_pham_quang_huy\\curves", "save_checkpoint": true, "max_steps_per_epoch": null, "save_test_predictions": false}
+[F01_f1 seed0] convnext_tiny.in12k_ft_in1k | 27.83M params | 4.47 GMAC | 164 bước/epoch | micro-batch 64 x 1
+  ep  1/12 | train loss 0.9806 acc nan | val loss 0.2324 F1 0.9138 top1 0.9320 (raw F1 0.8665) | 154 img/s, 68s *
+  ep  2/12 | train loss 0.6216 acc nan | val loss 0.1670 F1 0.9449 top1 0.9583 (raw F1 0.9242) | 194 img/s, 54s *
+  ep  3/12 | train loss 0.5398 acc nan | val loss 0.1319 F1 0.9501 top1 0.9612 (raw F1 0.9026) | 199 img/s, 53s *
+  ep  4/12 | train loss 0.5094 acc nan | val loss 0.1215 F1 0.9607 top1 0.9683 (raw F1 0.9312) | 252 img/s, 42s *
+  ep  5/12 | train loss 0.4925 acc nan | val loss 0.1062 F1 0.9629 top1 0.9712 (raw F1 0.9563) | 257 img/s, 41s *
+  ep  6/12 | train loss 0.4238 acc nan | val loss 0.0933 F1 0.9662 top1 0.9737 (raw F1 0.9575) | 258 img/s, 41s *
+  ep  7/12 | train loss 0.4529 acc nan | val loss 0.0916 F1 0.9647 top1 0.9723 (raw F1 0.9530) | 258 img/s, 41s
+  ep  8/12 | train loss 0.3674 acc nan | val loss 0.0861 F1 0.9687 top1 0.9749 (raw F1 0.9681) | 260 img/s, 40s *
+  ep  9/12 | train loss 0.3646 acc nan | val loss 0.0851 F1 0.9686 top1 0.9754 (raw F1 0.9687) | 260 img/s, 40s
+  ep 10/12 | train loss 0.3490 acc nan | val loss 0.0873 F1 0.9691 top1 0.9757 (raw F1 0.9657) | 260 img/s, 40s *
+  ep 11/12 | train loss 0.4002 acc nan | val loss 0.0889 F1 0.9696 top1 0.9760 (raw F1 0.9693) | 260 img/s, 40s *
+  ep 12/12 | train loss 0.3727 acc nan | val loss 0.0890 F1 0.9690 top1 0.9754 (raw F1 0.9690) | 261 img/s, 40s
+[F01_f1 seed0] best ep 11: val macro-F1 0.9696 top1 0.9760 | 9.0 phút train | peak 4.25 GiB
+[F01_f1 seed0] method I04_256 T=0.934 | val F1 0.9734 -> đã ghi F01_f1_seed0_test.csv (chỉ số test tính bằng eval.py)
+===== F01_f2 seed0 2026-10-04 00:02:33 =====
+{"exp_id": "F01_f2", "seed": 0, "fold": 2, "desc": "final_ema_mixup_d4", "backbone": "convnext_tiny", "init": "finetune", "drop_rate": 0.0, "drop_path_rate": 0.0, "img_size": 224, "eval_crop_pct": 0.875, "aug": "geo", "sampler": null, "mix": "mixup", "mix_alpha": 0.2, "mix_prob": 1.0, "loss": "ce", "label_smoothing": 0.0, "focal_gamma": 2.0, "class_weight_beta": null, "epochs": 12, "batch_size": 64, "accum_steps": 1, "optimizer": "adamw", "momentum": 0.9, "lr_backbone": 0.0001, "lr_head": 0.001, "weight_decay": 0.05, "warmup_epochs": 1.0, "grad_clip": null, "ema_decay": 0.999, "amp": true, "channels_last": false, "num_workers": 4, "images_dir": "data/images", "labels_dir": "data/labels", "out_dir": "runs", "pred_dir": "D:\\AI in Action\\Labs\\K4-Track4-Day2-Deeplearning-Advance\\submissions\\MSSV_pham_quang_huy\\predictions", "curves_dir": "D:\\AI in Action\\Labs\\K4-Track4-Day2-Deeplearning-Advance\\submissions\\MSSV_pham_quang_huy\\curves", "save_checkpoint": true, "max_steps_per_epoch": null, "save_test_predictions": false}
+[F01_f2 seed0] convnext_tiny.in12k_ft_in1k | 27.83M params | 4.47 GMAC | 164 bước/epoch | micro-batch 64 x 1
+  ep  1/12 | train loss 0.9958 acc nan | val loss 0.2374 F1 0.9163 top1 0.9335 (raw F1 0.8703) | 170 img/s, 62s *
+  ep  2/12 | train loss 0.5866 acc nan | val loss 0.1542 F1 0.9462 top1 0.9572 (raw F1 0.9171) | 262 img/s, 40s *
+  ep  3/12 | train loss 0.5473 acc nan | val loss 0.1231 F1 0.9549 top1 0.9643 (raw F1 0.9080) | 261 img/s, 40s *
+  ep  4/12 | train loss 0.4903 acc nan | val loss 0.1017 F1 0.9590 top1 0.9683 (raw F1 0.9299) | 261 img/s, 40s *
+  ep  5/12 | train loss 0.4868 acc nan | val loss 0.0957 F1 0.9612 top1 0.9703 (raw F1 0.9424) | 261 img/s, 40s *
+  ep  6/12 | train loss 0.4311 acc nan | val loss 0.0948 F1 0.9622 top1 0.9714 (raw F1 0.9527) | 260 img/s, 40s *
+  ep  7/12 | train loss 0.4490 acc nan | val loss 0.0843 F1 0.9666 top1 0.9757 (raw F1 0.9588) | 260 img/s, 40s *
+  ep  8/12 | train loss 0.3683 acc nan | val loss 0.0795 F1 0.9686 top1 0.9763 (raw F1 0.9678) | 261 img/s, 40s *
+  ep  9/12 | train loss 0.3674 acc nan | val loss 0.0765 F1 0.9717 top1 0.9783 (raw F1 0.9690) | 261 img/s, 40s *
+  ep 10/12 | train loss 0.3521 acc nan | val loss 0.0744 F1 0.9734 top1 0.9794 (raw F1 0.9702) | 261 img/s, 40s *
+  ep 11/12 | train loss 0.3956 acc nan | val loss 0.0743 F1 0.9731 top1 0.9794 (raw F1 0.9734) | 261 img/s, 40s
+  ep 12/12 | train loss 0.3767 acc nan | val loss 0.0737 F1 0.9739 top1 0.9803 (raw F1 0.9736) | 261 img/s, 40s *
+[F01_f2 seed0] best ep 12: val macro-F1 0.9739 top1 0.9803 | 8.4 phút train | peak 4.25 GiB
+[F01_f2 seed0] method I04_256 T=0.921 | val F1 0.9737 -> đã ghi F01_f2_seed0_test.csv (chỉ số test tính bằng eval.py)

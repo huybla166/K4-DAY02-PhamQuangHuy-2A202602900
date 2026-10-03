@@ -1,0 +1,16 @@
+===== T12 seed0 2026-10-03 21:47:34 =====
+{"exp_id": "T12", "seed": 0, "fold": 0, "desc": "same_lr", "backbone": "convnext_tiny", "init": "finetune", "drop_rate": 0.0, "drop_path_rate": 0.0, "img_size": 224, "eval_crop_pct": 0.875, "aug": "basic", "sampler": null, "mix": null, "mix_alpha": 1.0, "mix_prob": 1.0, "loss": "ce", "label_smoothing": 0.0, "focal_gamma": 2.0, "class_weight_beta": null, "epochs": 12, "batch_size": 64, "accum_steps": 1, "optimizer": "adamw", "momentum": 0.9, "lr_backbone": 0.0001, "lr_head": 0.0001, "weight_decay": 0.05, "warmup_epochs": 1.0, "grad_clip": null, "ema_decay": null, "amp": true, "channels_last": false, "num_workers": 4, "images_dir": "data/images", "labels_dir": "data/labels", "out_dir": "runs", "pred_dir": "D:\\AI in Action\\Labs\\K4-Track4-Day2-Deeplearning-Advance\\submissions\\MSSV_pham_quang_huy\\predictions", "curves_dir": "D:\\AI in Action\\Labs\\K4-Track4-Day2-Deeplearning-Advance\\submissions\\MSSV_pham_quang_huy\\curves", "save_checkpoint": true, "max_steps_per_epoch": null, "save_test_predictions": false}
+[T12 seed0] convnext_tiny.in12k_ft_in1k | 27.83M params | 4.47 GMAC | 164 bước/epoch | micro-batch 64 x 1
+  ep  1/12 | train loss 0.7599 acc 0.7538 | val loss 0.3074 F1 0.8683 top1 0.8992 | 172 img/s, 61s *
+  ep  2/12 | train loss 0.3180 acc 0.8981 | val loss 0.1694 F1 0.9337 top1 0.9483 | 268 img/s, 39s *
+  ep  3/12 | train loss 0.2336 acc 0.9244 | val loss 0.2183 F1 0.9149 top1 0.9280 | 266 img/s, 39s
+  ep  4/12 | train loss 0.1694 acc 0.9456 | val loss 0.1084 F1 0.9588 top1 0.9680 | 264 img/s, 40s *
+  ep  5/12 | train loss 0.1382 acc 0.9552 | val loss 0.1143 F1 0.9543 top1 0.9643 | 263 img/s, 40s
+  ep  6/12 | train loss 0.1061 acc 0.9667 | val loss 0.1392 F1 0.9489 top1 0.9592 | 264 img/s, 40s
+  ep  7/12 | train loss 0.0867 acc 0.9712 | val loss 0.0886 F1 0.9680 top1 0.9746 | 264 img/s, 40s *
+  ep  8/12 | train loss 0.0696 acc 0.9769 | val loss 0.1072 F1 0.9609 top1 0.9692 | 264 img/s, 40s
+  ep  9/12 | train loss 0.0515 acc 0.9836 | val loss 0.0890 F1 0.9699 top1 0.9760 | 264 img/s, 40s *
+  ep 10/12 | train loss 0.0416 acc 0.9860 | val loss 0.0967 F1 0.9660 top1 0.9740 | 264 img/s, 40s
+  ep 11/12 | train loss 0.0411 acc 0.9868 | val loss 0.0870 F1 0.9686 top1 0.9760 | 264 img/s, 40s
+  ep 12/12 | train loss 0.0355 acc 0.9891 | val loss 0.0863 F1 0.9717 top1 0.9777 | 263 img/s, 40s *
+[T12 seed0] best ep 12: val macro-F1 0.9717 top1 0.9777 | 8.3 phút train | peak 4.14 GiB

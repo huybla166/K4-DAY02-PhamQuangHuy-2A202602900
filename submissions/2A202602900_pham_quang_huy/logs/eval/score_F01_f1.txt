@@ -1,0 +1,25 @@
+### F01_f1 (1 seed: [0]; 3503 ảnh)
+
+> CẢNH BÁO: chỉ có 1 seed, yêu cầu tối thiểu 3.
+
+| Chỉ số | mean ± std |
+|---|---|
+| top-1 accuracy | 0.9797 (1 seed) |
+| macro-F1 | 0.9745 (1 seed) |
+| balanced accuracy | 0.9722 (1 seed) |
+| ECE (15 bin) | 0.0039 (1 seed) |
+| NLL | 0.0793 (1 seed) |
+
+| Lớp | Precision | Recall | F1 | Số ảnh |
+|---|---|---|---|---|
+| Chinee apple | 0.967 (1 seed) | 0.924 (1 seed) | 0.945 (1 seed) | 225 |
+| Lantana | 0.968 (1 seed) | 0.986 (1 seed) | 0.977 (1 seed) | 213 |
+| Parkinsonia | 0.995 (1 seed) | 0.966 (1 seed) | 0.980 (1 seed) | 206 |
+| Parthenium | 0.967 (1 seed) | 1.000 (1 seed) | 0.983 (1 seed) | 205 |
+| Prickly acacia | 0.971 (1 seed) | 0.948 (1 seed) | 0.960 (1 seed) | 213 |
+| Rubber vine | 1.000 (1 seed) | 0.985 (1 seed) | 0.993 (1 seed) | 202 |
+| Siam weed | 0.986 (1 seed) | 0.991 (1 seed) | 0.988 (1 seed) | 215 |
+| Snake weed | 0.956 (1 seed) | 0.961 (1 seed) | 0.958 (1 seed) | 203 |
+| Negative | 0.983 (1 seed) | 0.989 (1 seed) | 0.986 (1 seed) | 1821 |
+
+Đã lưu kết quả vào submissions/MSSV_pham_quang_huy/logs/eval/F01_f1_*

@@ -1,0 +1,18 @@
+{
+  "val": {
+    "pct_with_train_image_within_0s": 2.227934875749786,
+    "pct_with_train_image_within_5s": 25.535561268209083,
+    "pct_with_train_image_within_10s": 48.414738646101114,
+    "pct_with_train_image_within_30s": 87.83204798628962,
+    "pct_with_train_image_within_60s": 96.40102827763496,
+    "median_gap_s": 11.0
+  },
+  "test": {
+    "pct_with_train_image_within_0s": 1.8249215854006275,
+    "pct_with_train_image_within_5s": 25.292272597661817,
+    "pct_with_train_image_within_10s": 50.64157399486741,
+    "pct_with_train_image_within_30s": 87.16852010265184,
+    "pct_with_train_image_within_60s": 95.66581123467351,
+    "median_gap_s": 10.0
+  }
+}

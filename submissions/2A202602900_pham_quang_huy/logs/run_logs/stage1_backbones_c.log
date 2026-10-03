@@ -1,0 +1,139 @@
+===== B02 seed0 2026-10-03 18:31:07 =====
+{"exp_id": "B02", "seed": 0, "fold": 0, "desc": "resnext50", "backbone": "resnext50_32x4d", "init": "finetune", "drop_rate": 0.0, "drop_path_rate": 0.0, "img_size": 224, "eval_crop_pct": 0.875, "aug": "basic", "sampler": null, "mix": null, "mix_alpha": 1.0, "mix_prob": 1.0, "loss": "ce", "label_smoothing": 0.0, "focal_gamma": 2.0, "class_weight_beta": null, "epochs": 12, "batch_size": 64, "accum_steps": 1, "optimizer": "adamw", "momentum": 0.9, "lr_backbone": 0.0001, "lr_head": 0.001, "weight_decay": 0.05, "warmup_epochs": 1.0, "grad_clip": null, "ema_decay": null, "amp": true, "channels_last": false, "num_workers": 4, "images_dir": "data/images", "labels_dir": "data/labels", "out_dir": "runs", "pred_dir": "D:\\AI in Action\\Labs\\K4-Track4-Day2-Deeplearning-Advance\\submissions\\MSSV_pham_quang_huy\\predictions", "curves_dir": "D:\\AI in Action\\Labs\\K4-Track4-Day2-Deeplearning-Advance\\submissions\\MSSV_pham_quang_huy\\curves", "save_checkpoint": true, "max_steps_per_epoch": null, "save_test_predictions": false}
+[B02 seed0] resnext50_32x4d.a1h_in1k | 23.00M params | 4.26 GMAC | 164 bước/epoch | micro-batch 64 x 1
+  ep  1/12 | train loss 1.6193 acc 0.4977 | val loss 1.2878 F1 0.2663 top1 0.5710 | 170 img/s, 62s *
+  ep  2/12 | train loss 0.7936 acc 0.7318 | val loss 0.7323 F1 0.6585 top1 0.7635 | 223 img/s, 47s *
+  ep  3/12 | train loss 0.5254 acc 0.8223 | val loss 0.5379 F1 0.7505 top1 0.8226 | 212 img/s, 50s *
+  ep  4/12 | train loss 0.4082 acc 0.8628 | val loss 0.4885 F1 0.7758 top1 0.8343 | 240 img/s, 44s *
+  ep  5/12 | train loss 0.3454 acc 0.8835 | val loss 0.4147 F1 0.8133 top1 0.8575 | 241 img/s, 43s *
+  ep  6/12 | train loss 0.3108 acc 0.8971 | val loss 0.3818 F1 0.8273 top1 0.8689 | 239 img/s, 44s *
+  ep  7/12 | train loss 0.2753 acc 0.9085 | val loss 0.3210 F1 0.8601 top1 0.8926 | 239 img/s, 44s *
+  ep  8/12 | train loss 0.2499 acc 0.9179 | val loss 0.3606 F1 0.8427 top1 0.8763 | 235 img/s, 45s
+  ep  9/12 | train loss 0.2408 acc 0.9196 | val loss 0.3449 F1 0.8433 top1 0.8786 | 235 img/s, 45s
+  ep 10/12 | train loss 0.2153 acc 0.9294 | val loss 0.3443 F1 0.8440 top1 0.8820 | 238 img/s, 44s
+  ep 11/12 | train loss 0.2250 acc 0.9242 | val loss 0.3385 F1 0.8442 top1 0.8809 | 236 img/s, 44s
+  ep 12/12 | train loss 0.2256 acc 0.9238 | val loss 0.3370 F1 0.8461 top1 0.8817 | 238 img/s, 44s
+[B02 seed0] best ep 7: val macro-F1 0.8601 top1 0.8926 | 9.3 phút train | peak 4.10 GiB
+  latency batch1 fp32: p50 7.67 ms, p95 7.90 ms
+===== B03 seed0 2026-10-03 18:41:59 =====
+{"exp_id": "B03", "seed": 0, "fold": 0, "desc": "convnext_tiny", "backbone": "convnext_tiny", "init": "finetune", "drop_rate": 0.0, "drop_path_rate": 0.0, "img_size": 224, "eval_crop_pct": 0.875, "aug": "basic", "sampler": null, "mix": null, "mix_alpha": 1.0, "mix_prob": 1.0, "loss": "ce", "label_smoothing": 0.0, "focal_gamma": 2.0, "class_weight_beta": null, "epochs": 12, "batch_size": 64, "accum_steps": 1, "optimizer": "adamw", "momentum": 0.9, "lr_backbone": 0.0001, "lr_head": 0.001, "weight_decay": 0.05, "warmup_epochs": 1.0, "grad_clip": null, "ema_decay": null, "amp": true, "channels_last": false, "num_workers": 4, "images_dir": "data/images", "labels_dir": "data/labels", "out_dir": "runs", "pred_dir": "D:\\AI in Action\\Labs\\K4-Track4-Day2-Deeplearning-Advance\\submissions\\MSSV_pham_quang_huy\\predictions", "curves_dir": "D:\\AI in Action\\Labs\\K4-Track4-Day2-Deeplearning-Advance\\submissions\\MSSV_pham_quang_huy\\curves", "save_checkpoint": true, "max_steps_per_epoch": null, "save_test_predictions": false}
+[B03 seed0] convnext_tiny.in12k_ft_in1k | 27.83M params | 4.47 GMAC | 164 bước/epoch | micro-batch 64 x 1
+  ep  1/12 | train loss 0.7417 acc 0.7579 | val loss 0.3955 F1 0.8145 top1 0.8706 | 167 img/s, 63s *
+  ep  2/12 | train loss 0.3246 acc 0.8915 | val loss 0.1648 F1 0.9310 top1 0.9480 | 254 img/s, 41s *
+  ep  3/12 | train loss 0.2191 acc 0.9266 | val loss 0.2557 F1 0.9058 top1 0.9155 | 251 img/s, 42s
+  ep  4/12 | train loss 0.1750 acc 0.9413 | val loss 0.1666 F1 0.9301 top1 0.9472 | 249 img/s, 42s
+  ep  5/12 | train loss 0.1461 acc 0.9532 | val loss 0.1049 F1 0.9639 top1 0.9709 | 249 img/s, 42s *
+  ep  6/12 | train loss 0.1043 acc 0.9667 | val loss 0.1617 F1 0.9424 top1 0.9526 | 249 img/s, 42s
+  ep  7/12 | train loss 0.0875 acc 0.9697 | val loss 0.1021 F1 0.9688 top1 0.9763 | 249 img/s, 42s *
+  ep  8/12 | train loss 0.0659 acc 0.9785 | val loss 0.1058 F1 0.9594 top1 0.9677 | 250 img/s, 42s
+  ep  9/12 | train loss 0.0541 acc 0.9825 | val loss 0.1019 F1 0.9629 top1 0.9706 | 250 img/s, 42s
+  ep 10/12 | train loss 0.0395 acc 0.9869 | val loss 0.1043 F1 0.9663 top1 0.9732 | 251 img/s, 42s
+  ep 11/12 | train loss 0.0395 acc 0.9876 | val loss 0.0969 F1 0.9699 top1 0.9757 | 250 img/s, 42s *
+  ep 12/12 | train loss 0.0365 acc 0.9879 | val loss 0.0957 F1 0.9705 top1 0.9763 | 250 img/s, 42s *
+[B03 seed0] best ep 12: val macro-F1 0.9705 top1 0.9763 | 8.7 phút train | peak 4.14 GiB
+  latency batch1 fp32: p50 6.37 ms, p95 7.77 ms
+===== B04 seed0 2026-10-03 18:52:23 =====
+{"exp_id": "B04", "seed": 0, "fold": 0, "desc": "deit_small", "backbone": "deit_small_patch16_224", "init": "finetune", "drop_rate": 0.0, "drop_path_rate": 0.0, "img_size": 224, "eval_crop_pct": 0.875, "aug": "basic", "sampler": null, "mix": null, "mix_alpha": 1.0, "mix_prob": 1.0, "loss": "ce", "label_smoothing": 0.0, "focal_gamma": 2.0, "class_weight_beta": null, "epochs": 12, "batch_size": 64, "accum_steps": 1, "optimizer": "adamw", "momentum": 0.9, "lr_backbone": 0.0001, "lr_head": 0.001, "weight_decay": 0.05, "warmup_epochs": 1.0, "grad_clip": null, "ema_decay": null, "amp": true, "channels_last": false, "num_workers": 4, "images_dir": "data/images", "labels_dir": "data/labels", "out_dir": "runs", "pred_dir": "D:\\AI in Action\\Labs\\K4-Track4-Day2-Deeplearning-Advance\\submissions\\MSSV_pham_quang_huy\\predictions", "curves_dir": "D:\\AI in Action\\Labs\\K4-Track4-Day2-Deeplearning-Advance\\submissions\\MSSV_pham_quang_huy\\curves", "save_checkpoint": true, "max_steps_per_epoch": null, "save_test_predictions": false}
+[B04 seed0] deit_small_patch16_224.fb_in1k | 21.67M params | 4.25 GMAC | 164 bước/epoch | micro-batch 64 x 1
+  ep  1/12 | train loss 0.9023 acc 0.7037 | val loss 0.3495 F1 0.8511 top1 0.8906 | 271 img/s, 39s *
+  ep  2/12 | train loss 0.3443 acc 0.8866 | val loss 0.2429 F1 0.8827 top1 0.9195 | 351 img/s, 30s *
+  ep  3/12 | train loss 0.2527 acc 0.9174 | val loss 0.3153 F1 0.8593 top1 0.8969 | 344 img/s, 31s
+  ep  4/12 | train loss 0.1972 acc 0.9321 | val loss 0.1738 F1 0.9203 top1 0.9417 | 342 img/s, 31s *
+  ep  5/12 | train loss 0.1625 acc 0.9448 | val loss 0.1386 F1 0.9383 top1 0.9546 | 341 img/s, 31s *
+  ep  6/12 | train loss 0.1262 acc 0.9589 | val loss 0.1334 F1 0.9405 top1 0.9580 | 342 img/s, 31s *
+  ep  7/12 | train loss 0.1026 acc 0.9637 | val loss 0.1263 F1 0.9505 top1 0.9640 | 341 img/s, 31s *
+  ep  8/12 | train loss 0.0823 acc 0.9727 | val loss 0.1165 F1 0.9496 top1 0.9634 | 341 img/s, 31s
+  ep  9/12 | train loss 0.0753 acc 0.9749 | val loss 0.1123 F1 0.9540 top1 0.9660 | 340 img/s, 31s *
+  ep 10/12 | train loss 0.0544 acc 0.9826 | val loss 0.1229 F1 0.9523 top1 0.9637 | 341 img/s, 31s
+  ep 11/12 | train loss 0.0520 acc 0.9830 | val loss 0.1096 F1 0.9558 top1 0.9677 | 340 img/s, 31s *
+  ep 12/12 | train loss 0.0458 acc 0.9864 | val loss 0.1109 F1 0.9545 top1 0.9663 | 342 img/s, 31s
+[B04 seed0] best ep 11: val macro-F1 0.9558 top1 0.9677 | 6.3 phút train | peak 2.41 GiB
+  latency batch1 fp32: p50 6.69 ms, p95 16.51 ms
+===== B05 seed0 2026-10-03 18:59:41 =====
+{"exp_id": "B05", "seed": 0, "fold": 0, "desc": "swin_tiny", "backbone": "swin_tiny_patch4_window7_224", "init": "finetune", "drop_rate": 0.0, "drop_path_rate": 0.0, "img_size": 224, "eval_crop_pct": 0.875, "aug": "basic", "sampler": null, "mix": null, "mix_alpha": 1.0, "mix_prob": 1.0, "loss": "ce", "label_smoothing": 0.0, "focal_gamma": 2.0, "class_weight_beta": null, "epochs": 12, "batch_size": 64, "accum_steps": 1, "optimizer": "adamw", "momentum": 0.9, "lr_backbone": 0.0001, "lr_head": 0.001, "weight_decay": 0.05, "warmup_epochs": 1.0, "grad_clip": null, "ema_decay": null, "amp": true, "channels_last": false, "num_workers": 4, "images_dir": "data/images", "labels_dir": "data/labels", "out_dir": "runs", "pred_dir": "D:\\AI in Action\\Labs\\K4-Track4-Day2-Deeplearning-Advance\\submissions\\MSSV_pham_quang_huy\\predictions", "curves_dir": "D:\\AI in Action\\Labs\\K4-Track4-Day2-Deeplearning-Advance\\submissions\\MSSV_pham_quang_huy\\curves", "save_checkpoint": true, "max_steps_per_epoch": null, "save_test_predictions": false}
+[B05 seed0] swin_tiny_patch4_window7_224.ms_in1k | 27.53M params | 4.51 GMAC | 164 bước/epoch | micro-batch 64 x 1
+  ep  1/12 | train loss 0.9818 acc 0.6700 | val loss 0.3456 F1 0.8359 top1 0.8786 | 177 img/s, 59s *
+  ep  2/12 | train loss 0.3712 acc 0.8733 | val loss 0.2328 F1 0.8970 top1 0.9243 | 199 img/s, 53s *
+  ep  3/12 | train loss 0.2581 acc 0.9167 | val loss 0.3644 F1 0.8578 top1 0.8777 | 197 img/s, 53s
+  ep  4/12 | train loss 0.2075 acc 0.9317 | val loss 0.1627 F1 0.9327 top1 0.9480 | 197 img/s, 53s *
+  ep  5/12 | train loss 0.1708 acc 0.9425 | val loss 0.1136 F1 0.9524 top1 0.9654 | 196 img/s, 54s *
+  ep  6/12 | train loss 0.1414 acc 0.9546 | val loss 0.1599 F1 0.9347 top1 0.9489 | 196 img/s, 53s
+  ep  7/12 | train loss 0.1196 acc 0.9583 | val loss 0.1132 F1 0.9564 top1 0.9669 | 197 img/s, 53s *
+  ep  8/12 | train loss 0.0961 acc 0.9690 | val loss 0.1124 F1 0.9584 top1 0.9689 | 197 img/s, 53s *
+  ep  9/12 | train loss 0.0811 acc 0.9714 | val loss 0.1090 F1 0.9587 top1 0.9683 | 196 img/s, 54s *
+  ep 10/12 | train loss 0.0703 acc 0.9749 | val loss 0.0987 F1 0.9646 top1 0.9737 | 196 img/s, 53s *
+  ep 11/12 | train loss 0.0648 acc 0.9787 | val loss 0.1014 F1 0.9641 top1 0.9732 | 197 img/s, 53s
+  ep 12/12 | train loss 0.0608 acc 0.9808 | val loss 0.0999 F1 0.9641 top1 0.9734 | 197 img/s, 53s
+[B05 seed0] best ep 10: val macro-F1 0.9646 top1 0.9737 | 10.8 phút train | peak 4.62 GiB
+  latency batch1 fp32: p50 11.69 ms, p95 13.47 ms
+===== B06 seed0 2026-10-03 19:12:16 =====
+{"exp_id": "B06", "seed": 0, "fold": 0, "desc": "efficientnet_b0", "backbone": "efficientnet_b0", "init": "finetune", "drop_rate": 0.0, "drop_path_rate": 0.0, "img_size": 224, "eval_crop_pct": 0.875, "aug": "basic", "sampler": null, "mix": null, "mix_alpha": 1.0, "mix_prob": 1.0, "loss": "ce", "label_smoothing": 0.0, "focal_gamma": 2.0, "class_weight_beta": null, "epochs": 12, "batch_size": 64, "accum_steps": 1, "optimizer": "adamw", "momentum": 0.9, "lr_backbone": 0.0001, "lr_head": 0.001, "weight_decay": 0.05, "warmup_epochs": 1.0, "grad_clip": null, "ema_decay": null, "amp": true, "channels_last": false, "num_workers": 4, "images_dir": "data/images", "labels_dir": "data/labels", "out_dir": "runs", "pred_dir": "D:\\AI in Action\\Labs\\K4-Track4-Day2-Deeplearning-Advance\\submissions\\MSSV_pham_quang_huy\\predictions", "curves_dir": "D:\\AI in Action\\Labs\\K4-Track4-Day2-Deeplearning-Advance\\submissions\\MSSV_pham_quang_huy\\curves", "save_checkpoint": true, "max_steps_per_epoch": null, "save_test_predictions": false}
+[B06 seed0] efficientnet_b0.ra_in1k | 4.02M params | 0.40 GMAC | 164 bước/epoch | micro-batch 64 x 1
+  ep  1/12 | train loss 2.1284 acc 0.4136 | val loss 1.2397 F1 0.4770 top1 0.6004 | 213 img/s, 49s *
+  ep  2/12 | train loss 0.8143 acc 0.7319 | val loss 0.7685 F1 0.6648 top1 0.7432 | 494 img/s, 21s *
+  ep  3/12 | train loss 0.5701 acc 0.8129 | val loss 0.6139 F1 0.7281 top1 0.7966 | 482 img/s, 22s *
+  ep  4/12 | train loss 0.4298 acc 0.8578 | val loss 0.5070 F1 0.7795 top1 0.8346 | 481 img/s, 22s *
+  ep  5/12 | train loss 0.3620 acc 0.8812 | val loss 0.4638 F1 0.7940 top1 0.8523 | 478 img/s, 22s *
+  ep  6/12 | train loss 0.3205 acc 0.8918 | val loss 0.4004 F1 0.8325 top1 0.8749 | 475 img/s, 22s *
+  ep  7/12 | train loss 0.2858 acc 0.9028 | val loss 0.3967 F1 0.8309 top1 0.8749 | 475 img/s, 22s
+  ep  8/12 | train loss 0.2493 acc 0.9168 | val loss 0.3779 F1 0.8324 top1 0.8772 | 473 img/s, 22s
+  ep  9/12 | train loss 0.2348 acc 0.9211 | val loss 0.3769 F1 0.8411 top1 0.8826 | 475 img/s, 22s *
+  ep 10/12 | train loss 0.2234 acc 0.9245 | val loss 0.3644 F1 0.8443 top1 0.8837 | 474 img/s, 22s *
+  ep 11/12 | train loss 0.2225 acc 0.9251 | val loss 0.3743 F1 0.8405 top1 0.8815 | 476 img/s, 22s
+  ep 12/12 | train loss 0.2180 acc 0.9239 | val loss 0.3546 F1 0.8452 top1 0.8857 | 475 img/s, 22s *
+[B06 seed0] best ep 12: val macro-F1 0.8452 top1 0.8857 | 4.8 phút train | peak 2.83 GiB
+  latency batch1 fp32: p50 11.09 ms, p95 11.53 ms
+===== B07 seed0 2026-10-03 19:18:06 =====
+{"exp_id": "B07", "seed": 0, "fold": 0, "desc": "mobilenetv3", "backbone": "mobilenetv3_large_100", "init": "finetune", "drop_rate": 0.0, "drop_path_rate": 0.0, "img_size": 224, "eval_crop_pct": 0.875, "aug": "basic", "sampler": null, "mix": null, "mix_alpha": 1.0, "mix_prob": 1.0, "loss": "ce", "label_smoothing": 0.0, "focal_gamma": 2.0, "class_weight_beta": null, "epochs": 12, "batch_size": 64, "accum_steps": 1, "optimizer": "adamw", "momentum": 0.9, "lr_backbone": 0.0001, "lr_head": 0.001, "weight_decay": 0.05, "warmup_epochs": 1.0, "grad_clip": null, "ema_decay": null, "amp": true, "channels_last": false, "num_workers": 4, "images_dir": "data/images", "labels_dir": "data/labels", "out_dir": "runs", "pred_dir": "D:\\AI in Action\\Labs\\K4-Track4-Day2-Deeplearning-Advance\\submissions\\MSSV_pham_quang_huy\\predictions", "curves_dir": "D:\\AI in Action\\Labs\\K4-Track4-Day2-Deeplearning-Advance\\submissions\\MSSV_pham_quang_huy\\curves", "save_checkpoint": true, "max_steps_per_epoch": null, "save_test_predictions": false}
+[B07 seed0] mobilenetv3_large_100.ra_in1k | 4.21M params | 0.22 GMAC | 164 bước/epoch | micro-batch 64 x 1
+  ep  1/12 | train loss 1.8518 acc 0.4769 | val loss 1.1715 F1 0.4559 top1 0.6138 | 261 img/s, 40s *
+  ep  2/12 | train loss 0.7802 acc 0.7412 | val loss 0.8129 F1 0.6262 top1 0.7378 | 755 img/s, 14s *
+  ep  3/12 | train loss 0.5510 acc 0.8171 | val loss 0.6755 F1 0.7000 top1 0.7801 | 745 img/s, 14s *
+  ep  4/12 | train loss 0.4231 acc 0.8561 | val loss 0.5472 F1 0.7521 top1 0.8192 | 729 img/s, 14s *
+  ep  5/12 | train loss 0.3646 acc 0.8778 | val loss 0.5244 F1 0.7614 top1 0.8252 | 729 img/s, 14s *
+  ep  6/12 | train loss 0.3183 acc 0.8921 | val loss 0.4656 F1 0.7897 top1 0.8420 | 724 img/s, 14s *
+  ep  7/12 | train loss 0.2835 acc 0.9012 | val loss 0.4418 F1 0.8088 top1 0.8583 | 713 img/s, 15s *
+  ep  8/12 | train loss 0.2588 acc 0.9110 | val loss 0.4346 F1 0.8085 top1 0.8575 | 714 img/s, 15s
+  ep  9/12 | train loss 0.2369 acc 0.9203 | val loss 0.4319 F1 0.8132 top1 0.8580 | 716 img/s, 15s *
+  ep 10/12 | train loss 0.2265 acc 0.9187 | val loss 0.4090 F1 0.8200 top1 0.8638 | 720 img/s, 15s *
+  ep 11/12 | train loss 0.2219 acc 0.9232 | val loss 0.4315 F1 0.8110 top1 0.8569 | 720 img/s, 15s
+  ep 12/12 | train loss 0.2261 acc 0.9227 | val loss 0.4125 F1 0.8219 top1 0.8640 | 721 img/s, 15s *
+[B07 seed0] best ep 12: val macro-F1 0.8219 top1 0.8640 | 3.3 phút train | peak 1.70 GiB
+  latency batch1 fp32: p50 9.02 ms, p95 9.44 ms
+===== B08 seed0 2026-10-03 22:20:19 =====
+{"exp_id": "B08", "seed": 0, "fold": 0, "desc": "resnet50_tv", "backbone": "resnet50.tv_in1k", "init": "finetune", "drop_rate": 0.0, "drop_path_rate": 0.0, "img_size": 224, "eval_crop_pct": 0.875, "aug": "basic", "sampler": null, "mix": null, "mix_alpha": 1.0, "mix_prob": 1.0, "loss": "ce", "label_smoothing": 0.0, "focal_gamma": 2.0, "class_weight_beta": null, "epochs": 12, "batch_size": 64, "accum_steps": 1, "optimizer": "adamw", "momentum": 0.9, "lr_backbone": 0.0001, "lr_head": 0.001, "weight_decay": 0.05, "warmup_epochs": 1.0, "grad_clip": null, "ema_decay": null, "amp": true, "channels_last": false, "num_workers": 4, "images_dir": "data/images", "labels_dir": "data/labels", "out_dir": "runs", "pred_dir": "D:\\AI in Action\\Labs\\K4-Track4-Day2-Deeplearning-Advance\\submissions\\MSSV_pham_quang_huy\\predictions", "curves_dir": "D:\\AI in Action\\Labs\\K4-Track4-Day2-Deeplearning-Advance\\submissions\\MSSV_pham_quang_huy\\curves", "save_checkpoint": true, "max_steps_per_epoch": null, "save_test_predictions": false}
+[B08 seed0] resnet50.tv_in1k | 23.53M params | 4.11 GMAC | 164 bước/epoch | micro-batch 64 x 1
+===== B08 seed0 2026-10-04 00:16:59 =====
+{"exp_id": "B08", "seed": 0, "fold": 0, "desc": "resnet50_tv", "backbone": "resnet50.tv_in1k", "init": "finetune", "drop_rate": 0.0, "drop_path_rate": 0.0, "img_size": 224, "eval_crop_pct": 0.875, "aug": "basic", "sampler": null, "mix": null, "mix_alpha": 1.0, "mix_prob": 1.0, "loss": "ce", "label_smoothing": 0.0, "focal_gamma": 2.0, "class_weight_beta": null, "epochs": 12, "batch_size": 64, "accum_steps": 1, "optimizer": "adamw", "momentum": 0.9, "lr_backbone": 0.0001, "lr_head": 0.001, "weight_decay": 0.05, "warmup_epochs": 1.0, "grad_clip": null, "ema_decay": null, "amp": true, "channels_last": false, "num_workers": 4, "images_dir": "data/images", "labels_dir": "data/labels", "out_dir": "runs", "pred_dir": "D:\\AI in Action\\Labs\\K4-Track4-Day2-Deeplearning-Advance\\submissions\\MSSV_pham_quang_huy\\predictions", "curves_dir": "D:\\AI in Action\\Labs\\K4-Track4-Day2-Deeplearning-Advance\\submissions\\MSSV_pham_quang_huy\\curves", "save_checkpoint": true, "max_steps_per_epoch": null, "save_test_predictions": false}
+[B08 seed0] resnet50.tv_in1k | 23.53M params | 4.11 GMAC | 164 bước/epoch | micro-batch 64 x 1
+  ep  1/12 | train loss 0.9960 acc 0.6637 | val loss 0.6933 F1 0.6850 top1 0.7766 | 196 img/s, 54s *
+  ep  2/12 | train loss 0.4224 acc 0.8626 | val loss 0.3963 F1 0.8244 top1 0.8632 | 310 img/s, 34s *
+  ep  3/12 | train loss 0.3184 acc 0.8940 | val loss 0.3797 F1 0.8361 top1 0.8763 | 310 img/s, 34s *
+  ep  4/12 | train loss 0.2716 acc 0.9123 | val loss 0.1982 F1 0.9199 top1 0.9369 | 310 img/s, 34s *
+  ep  5/12 | train loss 0.2148 acc 0.9249 | val loss 0.1904 F1 0.9213 top1 0.9397 | 310 img/s, 34s *
+  ep  6/12 | train loss 0.1871 acc 0.9386 | val loss 0.2457 F1 0.8855 top1 0.9195 | 309 img/s, 34s
+  ep  7/12 | train loss 0.1530 acc 0.9484 | val loss 0.1460 F1 0.9365 top1 0.9512 | 309 img/s, 34s *
+  ep  8/12 | train loss 0.1323 acc 0.9572 | val loss 0.1333 F1 0.9451 top1 0.9600 | 309 img/s, 34s *
+  ep  9/12 | train loss 0.1115 acc 0.9627 | val loss 0.1343 F1 0.9447 top1 0.9594 | 309 img/s, 34s
+  ep 10/12 | train loss 0.0941 acc 0.9674 | val loss 0.1335 F1 0.9483 top1 0.9617 | 309 img/s, 34s *
+  ep 11/12 | train loss 0.0906 acc 0.9708 | val loss 0.1309 F1 0.9508 top1 0.9634 | 309 img/s, 34s *
+  ep 12/12 | train loss 0.0845 acc 0.9720 | val loss 0.1271 F1 0.9513 top1 0.9637 | 310 img/s, 34s *
+[B08 seed0] best ep 12: val macro-F1 0.9513 top1 0.9637 | 7.1 phút train | peak 3.07 GiB
+  latency batch1 fp32: p50 8.01 ms, p95 9.32 ms
+===== B09 seed0 2026-10-04 00:25:23 =====
+{"exp_id": "B09", "seed": 0, "fold": 0, "desc": "resnet50_lr10x", "backbone": "resnet50", "init": "finetune", "drop_rate": 0.0, "drop_path_rate": 0.0, "img_size": 224, "eval_crop_pct": 0.875, "aug": "basic", "sampler": null, "mix": null, "mix_alpha": 1.0, "mix_prob": 1.0, "loss": "ce", "label_smoothing": 0.0, "focal_gamma": 2.0, "class_weight_beta": null, "epochs": 12, "batch_size": 64, "accum_steps": 1, "optimizer": "adamw", "momentum": 0.9, "lr_backbone": 0.001, "lr_head": 0.01, "weight_decay": 0.05, "warmup_epochs": 1.0, "grad_clip": null, "ema_decay": null, "amp": true, "channels_last": false, "num_workers": 4, "images_dir": "data/images", "labels_dir": "data/labels", "out_dir": "runs", "pred_dir": "D:\\AI in Action\\Labs\\K4-Track4-Day2-Deeplearning-Advance\\submissions\\MSSV_pham_quang_huy\\predictions", "curves_dir": "D:\\AI in Action\\Labs\\K4-Track4-Day2-Deeplearning-Advance\\submissions\\MSSV_pham_quang_huy\\curves", "save_checkpoint": true, "max_steps_per_epoch": null, "save_test_predictions": false}
+[B09 seed0] resnet50.a1_in1k | 23.53M params | 4.11 GMAC | 164 bước/epoch | micro-batch 64 x 1
+  ep  1/12 | train loss 1.1208 acc 0.6335 | val loss 0.6305 F1 0.6812 top1 0.7781 | 196 img/s, 53s *
+  ep  2/12 | train loss 0.4908 acc 0.8333 | val loss 0.4096 F1 0.8116 top1 0.8580 | 311 img/s, 34s *
+  ep  3/12 | train loss 0.3578 acc 0.8795 | val loss 0.3915 F1 0.8340 top1 0.8680 | 310 img/s, 34s *
+  ep  4/12 | train loss 0.3022 acc 0.8993 | val loss 0.2959 F1 0.8614 top1 0.8995 | 310 img/s, 34s *
+  ep  5/12 | train loss 0.2415 acc 0.9163 | val loss 0.2206 F1 0.9025 top1 0.9274 | 309 img/s, 34s *
+  ep  6/12 | train loss 0.2045 acc 0.9334 | val loss 0.2466 F1 0.8949 top1 0.9217 | 309 img/s, 34s
+  ep  7/12 | train loss 0.1755 acc 0.9393 | val loss 0.2780 F1 0.8873 top1 0.9152 | 308 img/s, 34s
+  ep  8/12 | train loss 0.1448 acc 0.9509 | val loss 0.1845 F1 0.9181 top1 0.9406 | 308 img/s, 34s *
+  ep  9/12 | train loss 0.1252 acc 0.9567 | val loss 0.1719 F1 0.9314 top1 0.9480 | 309 img/s, 34s *
+  ep 10/12 | train loss 0.1022 acc 0.9647 | val loss 0.1916 F1 0.9272 top1 0.9460 | 309 img/s, 34s
+  ep 11/12 | train loss 0.1041 acc 0.9643 | val loss 0.1954 F1 0.9245 top1 0.9423 | 308 img/s, 34s
+  ep 12/12 | train loss 0.0949 acc 0.9681 | val loss 0.1850 F1 0.9285 top1 0.9460 | 309 img/s, 34s
+[B09 seed0] best ep 9: val macro-F1 0.9314 top1 0.9480 | 7.1 phút train | peak 3.07 GiB
+  latency batch1 fp32: p50 8.14 ms, p95 10.71 ms

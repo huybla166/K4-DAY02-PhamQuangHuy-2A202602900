@@ -1,0 +1,17 @@
+===== B05 seed0 2026-10-03 18:59:41 =====
+{"exp_id": "B05", "seed": 0, "fold": 0, "desc": "swin_tiny", "backbone": "swin_tiny_patch4_window7_224", "init": "finetune", "drop_rate": 0.0, "drop_path_rate": 0.0, "img_size": 224, "eval_crop_pct": 0.875, "aug": "basic", "sampler": null, "mix": null, "mix_alpha": 1.0, "mix_prob": 1.0, "loss": "ce", "label_smoothing": 0.0, "focal_gamma": 2.0, "class_weight_beta": null, "epochs": 12, "batch_size": 64, "accum_steps": 1, "optimizer": "adamw", "momentum": 0.9, "lr_backbone": 0.0001, "lr_head": 0.001, "weight_decay": 0.05, "warmup_epochs": 1.0, "grad_clip": null, "ema_decay": null, "amp": true, "channels_last": false, "num_workers": 4, "images_dir": "data/images", "labels_dir": "data/labels", "out_dir": "runs", "pred_dir": "D:\\AI in Action\\Labs\\K4-Track4-Day2-Deeplearning-Advance\\submissions\\MSSV_pham_quang_huy\\predictions", "curves_dir": "D:\\AI in Action\\Labs\\K4-Track4-Day2-Deeplearning-Advance\\submissions\\MSSV_pham_quang_huy\\curves", "save_checkpoint": true, "max_steps_per_epoch": null, "save_test_predictions": false}
+[B05 seed0] swin_tiny_patch4_window7_224.ms_in1k | 27.53M params | 4.51 GMAC | 164 bước/epoch | micro-batch 64 x 1
+  ep  1/12 | train loss 0.9818 acc 0.6700 | val loss 0.3456 F1 0.8359 top1 0.8786 | 177 img/s, 59s *
+  ep  2/12 | train loss 0.3712 acc 0.8733 | val loss 0.2328 F1 0.8970 top1 0.9243 | 199 img/s, 53s *
+  ep  3/12 | train loss 0.2581 acc 0.9167 | val loss 0.3644 F1 0.8578 top1 0.8777 | 197 img/s, 53s
+  ep  4/12 | train loss 0.2075 acc 0.9317 | val loss 0.1627 F1 0.9327 top1 0.9480 | 197 img/s, 53s *
+  ep  5/12 | train loss 0.1708 acc 0.9425 | val loss 0.1136 F1 0.9524 top1 0.9654 | 196 img/s, 54s *
+  ep  6/12 | train loss 0.1414 acc 0.9546 | val loss 0.1599 F1 0.9347 top1 0.9489 | 196 img/s, 53s
+  ep  7/12 | train loss 0.1196 acc 0.9583 | val loss 0.1132 F1 0.9564 top1 0.9669 | 197 img/s, 53s *
+  ep  8/12 | train loss 0.0961 acc 0.9690 | val loss 0.1124 F1 0.9584 top1 0.9689 | 197 img/s, 53s *
+  ep  9/12 | train loss 0.0811 acc 0.9714 | val loss 0.1090 F1 0.9587 top1 0.9683 | 196 img/s, 54s *
+  ep 10/12 | train loss 0.0703 acc 0.9749 | val loss 0.0987 F1 0.9646 top1 0.9737 | 196 img/s, 53s *
+  ep 11/12 | train loss 0.0648 acc 0.9787 | val loss 0.1014 F1 0.9641 top1 0.9732 | 197 img/s, 53s
+  ep 12/12 | train loss 0.0608 acc 0.9808 | val loss 0.0999 F1 0.9641 top1 0.9734 | 197 img/s, 53s
+[B05 seed0] best ep 10: val macro-F1 0.9646 top1 0.9737 | 10.8 phút train | peak 4.62 GiB
+  latency batch1 fp32: p50 11.69 ms, p95 13.47 ms

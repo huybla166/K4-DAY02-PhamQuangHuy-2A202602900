@@ -1,0 +1,21 @@
+{
+  "out_id": "T00",
+  "seed": 0,
+  "fold": 0,
+  "exps": [
+    "T00"
+  ],
+  "method": "I00",
+  "K": 1,
+  "ts": false,
+  "T": 1.0,
+  "test_run_at": "2026-10-03 23:49:42",
+  "val_macro_f1": 0.9713733125991129,
+  "val_top1": 0.9780062839188803,
+  "val_ece": 0.009574778905216751,
+  "checkpoints": [
+    "runs\\T00\\seed0\\best.pt"
+  ],
+  "res": 224,
+  "crop_pct": 0.875
+}

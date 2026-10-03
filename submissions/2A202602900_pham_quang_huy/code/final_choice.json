@@ -1,0 +1,26 @@
+{
+  "base": "C02",
+  "rule": "macro-F1 val cao nhất (seed 0) trong T13, T07, C01, C02",
+  "candidates": {
+    "T13": {
+      "val_macro_f1": 0.9751010605308674,
+      "val_top1": 0.9802913453299057,
+      "best_epoch": 9
+    },
+    "T07": {
+      "val_macro_f1": 0.9750165845218789,
+      "val_top1": 0.9797200799771494,
+      "best_epoch": 12
+    },
+    "C01": {
+      "val_macro_f1": 0.973808448848467,
+      "val_top1": 0.9800057126535275,
+      "best_epoch": 9
+    },
+    "C02": {
+      "val_macro_f1": 0.9772467182822909,
+      "val_top1": 0.9828620394173093,
+      "best_epoch": 9
+    }
+  }
+}

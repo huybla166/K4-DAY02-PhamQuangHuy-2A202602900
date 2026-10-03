@@ -1,0 +1,9 @@
+time,out_id,seed,fold,method,ts,file
+2026-10-03 23:48:36,F01,0,0,I04_256,True,F01_seed0_test.csv
+2026-10-03 23:48:56,F01,1,0,I04_256,True,F01_seed1_test.csv
+2026-10-03 23:49:17,F01,2,0,I04_256,True,F01_seed2_test.csv
+2026-10-03 23:49:42,T00,0,0,I00,False,T00_seed0_test.csv
+2026-10-03 23:50:00,T00,1,0,I00,False,T00_seed1_test.csv
+2026-10-03 23:50:18,T00,2,0,I00,False,T00_seed2_test.csv
+2026-10-04 00:02:23,F01_f1,0,1,I04_256,True,F01_f1_seed0_test.csv
+2026-10-04 00:13:40,F01_f2,0,2,I04_256,True,F01_f2_seed0_test.csv

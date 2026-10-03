@@ -1,0 +1,12 @@
+đặc trưng: train (10501, 384), val (3501, 384); nạp ảnh 14s, trích đặc trưng 18s
+{'C': 0.01, 'class_weight': 'None', 'cv_macro_f1_train': 0.8844083075988286, 'cv_std': 0.011953680745074458}
+{'C': 0.01, 'class_weight': 'balanced', 'cv_macro_f1_train': 0.8575967486964071, 'cv_std': 0.006288767692333719}
+{'C': 0.03, 'class_weight': 'None', 'cv_macro_f1_train': 0.8896376600801258, 'cv_std': 0.009524886665307215}
+{'C': 0.03, 'class_weight': 'balanced', 'cv_macro_f1_train': 0.8716934395752741, 'cv_std': 0.006204755117962615}
+{'C': 0.1, 'class_weight': 'None', 'cv_macro_f1_train': 0.8892337868195352, 'cv_std': 0.010689300472301136}
+{'C': 0.1, 'class_weight': 'balanced', 'cv_macro_f1_train': 0.8795935325594648, 'cv_std': 0.007449911056731301}
+{'C': 0.3, 'class_weight': 'None', 'cv_macro_f1_train': 0.8825991571941748, 'cv_std': 0.01028178737719501}
+{'C': 0.3, 'class_weight': 'balanced', 'cv_macro_f1_train': 0.8776880070499867, 'cv_std': 0.008467789651752782}
+{'C': 1.0, 'class_weight': 'None', 'cv_macro_f1_train': 0.871861128155698, 'cv_std': 0.005827823921791662}
+{'C': 1.0, 'class_weight': 'balanced', 'cv_macro_f1_train': 0.8727862511670605, 'cv_std': 0.007738273467086372}
+DINOv2 linear probe: val macro-F1 0.8921 top1 0.9126 (C=0.03, class_weight=None)

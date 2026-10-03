@@ -1,0 +1,83 @@
+{
+  "n_wrong": 59,
+  "n_chinee_snake": 3,
+  "wrong_files": [
+    "20170207-154046-0.jpg",
+    "20170705-162506-0.jpg",
+    "20170707-111904-0.jpg",
+    "20170706-113305-0.jpg",
+    "20170405-160310-0.jpg",
+    "20171102-095632-3.jpg",
+    "20171113-101506-1.jpg",
+    "20170718-133537-2.jpg",
+    "20180109-070954-2.jpg",
+    "20170728-152608-1.jpg",
+    "20171113-060629-1.jpg",
+    "20180109-075356-2.jpg",
+    "20171220-091052-2.jpg",
+    "20171220-092008-2.jpg",
+    "20171113-150301-1.jpg",
+    "20170521-153419-0.jpg",
+    "20171217-183729-2.jpg",
+    "20170920-131101-2.jpg",
+    "20170630-155129-0.jpg",
+    "20170729-091822-2.jpg",
+    "20171025-075230-2.jpg",
+    "20170811-163711-1.jpg",
+    "20171102-100343-2.jpg",
+    "20171205-144647-2.jpg"
+  ],
+  "top_confusions_sum_over_seeds": [
+    [
+      24,
+      "Chinee Apple",
+      "Negatives"
+    ],
+    [
+      21,
+      "Negatives",
+      "Prickly Acacia"
+    ],
+    [
+      16,
+      "Snake Weed",
+      "Negatives"
+    ],
+    [
+      11,
+      "Negatives",
+      "Rubber Vine"
+    ],
+    [
+      11,
+      "Chinee Apple",
+      "Snake Weed"
+    ],
+    [
+      10,
+      "Rubber Vine",
+      "Negatives"
+    ],
+    [
+      10,
+      "Negatives",
+      "Siam Weed"
+    ],
+    [
+      10,
+      "Negatives",
+      "Lantana"
+    ],
+    [
+      7,
+      "Negatives",
+      "Chinee Apple"
+    ],
+    [
+      6,
+      "Prickly Acacia",
+      "Negatives"
+    ]
+  ],
+  "gradcam": "figures/gradcam_misclassified.png"
+}

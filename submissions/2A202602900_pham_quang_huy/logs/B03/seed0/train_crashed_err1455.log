@@ -1,0 +1,12 @@
+===== B03 seed0 2026-10-03 17:35:30 =====
+{"exp_id": "B03", "seed": 0, "fold": 0, "desc": "convnext_tiny", "backbone": "convnext_tiny", "init": "finetune", "drop_rate": 0.0, "drop_path_rate": 0.0, "img_size": 224, "aug": "basic", "sampler": null, "mix": null, "mix_alpha": 1.0, "mix_prob": 1.0, "loss": "ce", "label_smoothing": 0.0, "focal_gamma": 2.0, "class_weight_beta": null, "epochs": 12, "batch_size": 64, "accum_steps": 1, "optimizer": "adamw", "momentum": 0.9, "lr_backbone": 0.0001, "lr_head": 0.001, "weight_decay": 0.05, "warmup_epochs": 1.0, "grad_clip": null, "ema_decay": null, "amp": true, "channels_last": false, "num_workers": 4, "images_dir": "data/images", "labels_dir": "data/labels", "out_dir": "runs", "pred_dir": "D:\\AI in Action\\Labs\\K4-Track4-Day2-Deeplearning-Advance\\submissions\\MSSV_pham_quang_huy\\predictions", "curves_dir": "D:\\AI in Action\\Labs\\K4-Track4-Day2-Deeplearning-Advance\\submissions\\MSSV_pham_quang_huy\\curves", "save_checkpoint": true, "max_steps_per_epoch": null, "save_test_predictions": false}
+[B03 seed0] convnext_tiny.in12k_ft_in1k | 27.83M params | 4.47 GMAC | 164 bước/epoch | micro-batch 64 x 1
+  ep  1/12 | train loss 0.7414 acc 0.7568 | val loss 0.3590 F1 0.8224 top1 0.8769 | 163 img/s, 64s *
+  ep  2/12 | train loss 0.3214 acc 0.8922 | val loss 0.1758 F1 0.9264 top1 0.9452 | 267 img/s, 39s *
+  ep  3/12 | train loss 0.2281 acc 0.9263 | val loss 0.2137 F1 0.9175 top1 0.9340 | 265 img/s, 40s
+  ep  4/12 | train loss 0.1767 acc 0.9410 | val loss 0.1539 F1 0.9384 top1 0.9486 | 263 img/s, 40s *
+  ep  5/12 | train loss 0.1425 acc 0.9546 | val loss 0.1442 F1 0.9472 top1 0.9577 | 263 img/s, 40s *
+  ep  6/12 | train loss 0.1063 acc 0.9663 | val loss 0.1198 F1 0.9560 top1 0.9663 | 263 img/s, 40s *
+  ep  7/12 | train loss 0.0856 acc 0.9735 | val loss 0.0984 F1 0.9665 top1 0.9732 | 262 img/s, 40s *
+  ep  8/12 | train loss 0.0660 acc 0.9781 | val loss 0.0931 F1 0.9681 top1 0.9751 | 261 img/s, 40s *
+  ep  9/12 | train loss 0.0560 acc 0.9818 | val loss 0.0936 F1 0.9726 top1 0.9774 | 261 img/s, 40s *

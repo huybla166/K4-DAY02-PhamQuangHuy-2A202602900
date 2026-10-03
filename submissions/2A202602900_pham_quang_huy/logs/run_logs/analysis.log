@@ -1,0 +1,120 @@
+{
+  "n_wrong": 59,
+  "n_chinee_snake": 3,
+  "wrong_files": [
+    "20170207-154046-0.jpg",
+    "20170705-162506-0.jpg",
+    "20170707-111904-0.jpg",
+    "20170706-113305-0.jpg",
+    "20170405-160310-0.jpg",
+    "20171102-095632-3.jpg",
+    "20171113-101506-1.jpg",
+    "20170718-133537-2.jpg",
+    "20180109-070954-2.jpg",
+    "20170728-152608-1.jpg",
+    "20171113-060629-1.jpg",
+    "20180109-075356-2.jpg",
+    "20171220-091052-2.jpg",
+    "20171220-092008-2.jpg",
+    "20171113-150301-1.jpg",
+    "20170521-153419-0.jpg",
+    "20171217-183729-2.jpg",
+    "20170920-131101-2.jpg",
+    "20170630-155129-0.jpg",
+    "20170729-091822-2.jpg",
+    "20171025-075230-2.jpg",
+    "20170811-163711-1.jpg",
+    "20171102-100343-2.jpg",
+    "20171205-144647-2.jpg"
+  ],
+  "top_confusions_sum_over_seeds": [
+    [
+      24,
+      "Chinee Apple",
+      "Negatives"
+    ],
+    [
+      21,
+      "Negatives",
+      "Prickly Acacia"
+    ],
+    [
+      16,
+      "Snake Weed",
+      "Negatives"
+    ],
+    [
+      11,
+      "Negatives",
+      "Rubber Vine"
+    ],
+    [
+      11,
+      "Chinee Apple",
+      "Snake Weed"
+    ],
+    [
+      10,
+      "Rubber Vine",
+      "Negatives"
+    ],
+    [
+      10,
+      "Negatives",
+      "Siam Weed"
+    ],
+    [
+      10,
+      "Negatives",
+      "Lantana"
+    ],
+    [
+      7,
+      "Negatives",
+      "Chinee Apple"
+    ],
+    [
+      6,
+      "Prickly Acacia",
+      "Negatives"
+    ]
+  ],
+  "gradcam": "figures/gradcam_misclassified.png"
+}
+{'model': 'F01 seed0', 'method': 'I00', 'shift': 'clean', 'val_macro_f1': 0.9767686160590464, 'val_top1': 0.9825764067409312, 'ece_before_ts': 0.008576631414302595, 'ece_after_ts_clean_T': 0.005131519818725004, 'T_clean': 0.8994404066109979}
+{'model': 'F01 seed0', 'method': 'I00', 'shift': 'dark', 'val_macro_f1': 0.882930929327919, 'val_top1': 0.8897457869180234, 'ece_before_ts': 0.05447972136806804, 'ece_after_ts_clean_T': 0.03090471345426099, 'T_clean': 0.8994404066109979}
+{'model': 'F01 seed0', 'method': 'I00', 'shift': 'bright', 'val_macro_f1': 0.9590051620079593, 'val_top1': 0.967723507569266, 'ece_before_ts': 0.007774019510508585, 'ece_after_ts_clean_T': 0.012070692169865255, 'T_clean': 0.8994404066109979}
+{'model': 'F01 seed0', 'method': 'I00', 'shift': 'noise', 'val_macro_f1': 0.9168353000231263, 'val_top1': 0.9331619537275064, 'ece_before_ts': 0.011013539606002157, 'ece_after_ts_clean_T': 0.014359581494456469, 'T_clean': 0.8994404066109979}
+{'model': 'F01 seed0', 'method': 'I00', 'shift': 'blur', 'val_macro_f1': 0.44071930532737713, 'val_top1': 0.6452442159383034, 'ece_before_ts': 0.18922033222799317, 'ece_after_ts_clean_T': 0.21585581974524304, 'T_clean': 0.8994404066109979}
+{'model': 'F01 seed0', 'method': 'I00', 'shift': 'low_contrast', 'val_macro_f1': 0.8716924238130589, 'val_top1': 0.8957440731219651, 'ece_before_ts': 0.043842247713941324, 'ece_after_ts_clean_T': 0.025696833143505075, 'T_clean': 0.8994404066109979}
+{'model': 'F01 seed0', 'method': 'I04_256', 'shift': 'clean', 'val_macro_f1': 0.9795027134172604, 'val_top1': 0.9848614681519566, 'ece_before_ts': 0.01240716787317372, 'ece_after_ts_clean_T': 0.004381479985645508, 'T_clean': 0.838409417628195}
+{'model': 'F01 seed0', 'method': 'I04_256', 'shift': 'dark', 'val_macro_f1': 0.9000619723236924, 'val_top1': 0.9097400742644959, 'ece_before_ts': 0.07999757722428437, 'ece_after_ts_clean_T': 0.03847242291213886, 'T_clean': 0.838409417628195}
+{'model': 'F01 seed0', 'method': 'I04_256', 'shift': 'bright', 'val_macro_f1': 0.9556877929071987, 'val_top1': 0.9642959154527277, 'ece_before_ts': 0.005168084326106323, 'ece_after_ts_clean_T': 0.012411958924571656, 'T_clean': 0.838409417628195}
+{'model': 'F01 seed0', 'method': 'I04_256', 'shift': 'noise', 'val_macro_f1': 0.9276993885745176, 'val_top1': 0.9431590974007427, 'ece_before_ts': 0.01768064255326992, 'ece_after_ts_clean_T': 0.01156072716821676, 'T_clean': 0.838409417628195}
+{'model': 'F01 seed0', 'method': 'I04_256', 'shift': 'blur', 'val_macro_f1': 0.3799813197889477, 'val_top1': 0.6223936018280491, 'ece_before_ts': 0.2162972778789548, 'ece_after_ts_clean_T': 0.2574418795799681, 'T_clean': 0.838409417628195}
+{'model': 'F01 seed0', 'method': 'I04_256', 'shift': 'low_contrast', 'val_macro_f1': 0.8054008601816353, 'val_top1': 0.8486146815195659, 'ece_before_ts': 0.037048956655856564, 'ece_after_ts_clean_T': 0.02055265470938737, 'T_clean': 0.838409417628195}
+{'model': 'B01 seed0', 'method': 'I00', 'shift': 'clean', 'eval_on': 'val nửa B', 'val_macro_f1': 0.8334513424753138, 'val_top1': 0.8720731010850943, 'ece_before_ts': 0.021487011782335405, 'bn_adapt_macro_f1': 0.8385814905274498, 'bn_adapt_top1': 0.8749286122215877, 'bn_adapt_ece': 0.01565431305691769}
+{'model': 'B01 seed0', 'method': 'I00', 'shift': 'dark', 'eval_on': 'val nửa B', 'val_macro_f1': 0.6598649681231082, 'val_top1': 0.7567104511707595, 'ece_before_ts': 0.04947586594804784, 'bn_adapt_macro_f1': 0.8333334382139286, 'bn_adapt_top1': 0.8720731010850943, 'bn_adapt_ece': 0.016368999013415833}
+{'model': 'B01 seed0', 'method': 'I00', 'shift': 'bright', 'eval_on': 'val nửa B', 'val_macro_f1': 0.7311922628966725, 'val_top1': 0.8041119360365505, 'ece_before_ts': 0.04919535317673759, 'bn_adapt_macro_f1': 0.8120233289270296, 'bn_adapt_top1': 0.8555111364934324, 'bn_adapt_ece': 0.028855760500151623}
+{'model': 'B01 seed0', 'method': 'I00', 'shift': 'noise', 'eval_on': 'val nửa B', 'val_macro_f1': 0.32273629347838356, 'val_top1': 0.5511136493432325, 'ece_before_ts': 0.18943813803988568, 'bn_adapt_macro_f1': 0.7997015782838653, 'bn_adapt_top1': 0.8498001142204454, 'bn_adapt_ece': 0.0164848520117104}
+{'model': 'B01 seed0', 'method': 'I00', 'shift': 'blur', 'eval_on': 'val nửa B', 'val_macro_f1': 0.19643476042113633, 'val_top1': 0.45459737292975444, 'ece_before_ts': 0.12030568422142351, 'bn_adapt_macro_f1': 0.6192715128684427, 'bn_adapt_top1': 0.728726442033124, 'bn_adapt_ece': 0.07951338507838522}
+{'model': 'B01 seed0', 'method': 'I00', 'shift': 'low_contrast', 'eval_on': 'val nửa B', 'val_macro_f1': 0.13817790092733262, 'val_top1': 0.5408338092518561, 'ece_before_ts': 0.413154788267947, 'bn_adapt_macro_f1': 0.8235034866567461, 'bn_adapt_top1': 0.8617932609937179, 'bn_adapt_ece': 0.01942276043657547}
+    model  method        shift  val_macro_f1  val_top1  ece_before_ts  ece_after_ts_clean_T  T_clean   eval_on  bn_adapt_macro_f1  bn_adapt_top1  bn_adapt_ece
+F01 seed0     I00        clean      0.976769  0.982576       0.008577              0.005132 0.899440       NaN                NaN            NaN           NaN
+F01 seed0     I00         dark      0.882931  0.889746       0.054480              0.030905 0.899440       NaN                NaN            NaN           NaN
+F01 seed0     I00       bright      0.959005  0.967724       0.007774              0.012071 0.899440       NaN                NaN            NaN           NaN
+F01 seed0     I00        noise      0.916835  0.933162       0.011014              0.014360 0.899440       NaN                NaN            NaN           NaN
+F01 seed0     I00         blur      0.440719  0.645244       0.189220              0.215856 0.899440       NaN                NaN            NaN           NaN
+F01 seed0     I00 low_contrast      0.871692  0.895744       0.043842              0.025697 0.899440       NaN                NaN            NaN           NaN
+F01 seed0 I04_256        clean      0.979503  0.984861       0.012407              0.004381 0.838409       NaN                NaN            NaN           NaN
+F01 seed0 I04_256         dark      0.900062  0.909740       0.079998              0.038472 0.838409       NaN                NaN            NaN           NaN
+F01 seed0 I04_256       bright      0.955688  0.964296       0.005168              0.012412 0.838409       NaN                NaN            NaN           NaN
+F01 seed0 I04_256        noise      0.927699  0.943159       0.017681              0.011561 0.838409       NaN                NaN            NaN           NaN
+F01 seed0 I04_256         blur      0.379981  0.622394       0.216297              0.257442 0.838409       NaN                NaN            NaN           NaN
+F01 seed0 I04_256 low_contrast      0.805401  0.848615       0.037049              0.020553 0.838409       NaN                NaN            NaN           NaN
+B01 seed0     I00        clean      0.833451  0.872073       0.021487                   NaN      NaN val nửa B           0.838581       0.874929      0.015654
+B01 seed0     I00         dark      0.659865  0.756710       0.049476                   NaN      NaN val nửa B           0.833333       0.872073      0.016369
+B01 seed0     I00       bright      0.731192  0.804112       0.049195                   NaN      NaN val nửa B           0.812023       0.855511      0.028856
+B01 seed0     I00        noise      0.322736  0.551114       0.189438                   NaN      NaN val nửa B           0.799702       0.849800      0.016485
+B01 seed0     I00         blur      0.196435  0.454597       0.120306                   NaN      NaN val nửa B           0.619272       0.728726      0.079513
+B01 seed0     I00 low_contrast      0.138178  0.540834       0.413155                   NaN      NaN val nửa B           0.823503       0.861793      0.019423

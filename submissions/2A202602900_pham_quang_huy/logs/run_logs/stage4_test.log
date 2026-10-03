@@ -1,0 +1,6 @@
+[F01 seed0] method I04_256 T=0.838 | val F1 0.9795 -> đã ghi F01_seed0_test.csv (chỉ số test tính bằng eval.py)
+[F01 seed1] method I04_256 T=0.926 | val F1 0.9747 -> đã ghi F01_seed1_test.csv (chỉ số test tính bằng eval.py)
+[F01 seed2] method I04_256 T=0.845 | val F1 0.9766 -> đã ghi F01_seed2_test.csv (chỉ số test tính bằng eval.py)
+[T00 seed0] method I00 T=1.000 | val F1 0.9714 -> đã ghi T00_seed0_test.csv (chỉ số test tính bằng eval.py)
+[T00 seed1] method I00 T=1.000 | val F1 0.9735 -> đã ghi T00_seed1_test.csv (chỉ số test tính bằng eval.py)
+[T00 seed2] method I00 T=1.000 | val F1 0.9724 -> đã ghi T00_seed2_test.csv (chỉ số test tính bằng eval.py)

@@ -1,0 +1,86 @@
+[
+  {
+    "name": "resnet50",
+    "tag": "resnet50.a1_in1k",
+    "params_M": 23.526473,
+    "micro": 64,
+    "accum": 1,
+    "img": 224,
+    "train_imgs_per_s": 323.4403269442309,
+    "peak_GiB": 3.0689687728881836,
+    "est_epoch_s": 32.46657613541997,
+    "gmacs": 4.109483008
+  },
+  {
+    "name": "resnext50_32x4d",
+    "tag": "resnext50_32x4d.a1h_in1k",
+    "params_M": 22.998345,
+    "micro": 64,
+    "accum": 1,
+    "img": 224,
+    "train_imgs_per_s": 261.9735845486322,
+    "peak_GiB": 4.100517272949219,
+    "est_epoch_s": 40.08419405373529,
+    "gmacs": 4.25735168
+  },
+  {
+    "name": "convnext_tiny",
+    "tag": "convnext_tiny.in12k_ft_in1k",
+    "params_M": 27.827049,
+    "micro": 64,
+    "accum": 1,
+    "img": 224,
+    "train_imgs_per_s": 261.3030015713388,
+    "peak_GiB": 4.144176959991455,
+    "est_epoch_s": 40.18706228727764,
+    "gmacs": 4.469676288
+  },
+  {
+    "name": "deit_small_patch16_224",
+    "tag": "deit_small_patch16_224.fb_in1k",
+    "params_M": 21.669129,
+    "micro": 64,
+    "accum": 1,
+    "img": 224,
+    "train_imgs_per_s": 353.4380948390487,
+    "peak_GiB": 2.407693862915039,
+    "est_epoch_s": 29.711002162293866,
+    "gmacs": 4.250294016
+  },
+  {
+    "name": "swin_tiny_patch4_window7_224",
+    "tag": "swin_tiny_patch4_window7_224.ms_in1k",
+    "params_M": 27.526275,
+    "micro": 64,
+    "accum": 1,
+    "img": 224,
+    "train_imgs_per_s": 188.81030293768987,
+    "peak_GiB": 4.625229835510254,
+    "est_epoch_s": 55.61666835239114,
+    "gmacs": 4.508433408
+  },
+  {
+    "name": "efficientnet_b0",
+    "tag": "efficientnet_b0.ra_in1k",
+    "params_M": 4.019077,
+    "micro": 64,
+    "accum": 1,
+    "img": 224,
+    "train_imgs_per_s": 534.2937263066749,
+    "peak_GiB": 2.8269753456115723,
+    "est_epoch_s": 19.653983348426248,
+    "gmacs": 0.398084384
+  },
+  {
+    "name": "mobilenetv3_large_100",
+    "tag": "mobilenetv3_large_100.ra_in1k",
+    "params_M": 4.213561,
+    "micro": 64,
+    "accum": 1,
+    "img": 224,
+    "train_imgs_per_s": 871.7283512835888,
+    "peak_GiB": 1.700854778289795,
+    "est_epoch_s": 12.04618386511997,
+    "gmacs": 0.224167936
+  }
+]
